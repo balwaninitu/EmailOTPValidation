@@ -38,7 +38,7 @@ public class EmailOTPModule {
     public EmailOTPModule() {
         otpMap = new HashMap<>();
     }
-    //email validation with status
+    //email validation with status, email body
     public String generate_OTP_email(String user_email) {
         if (!isValidEmail(user_email)) {
             return STATUS_EMAIL_INVALID;

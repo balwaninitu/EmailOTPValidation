@@ -5,7 +5,7 @@ import java.io.ByteArrayInputStream;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
+//Junit test cases
 public class EmailOTPModuleTest {
     private EmailOTPModule otpModule;
 
